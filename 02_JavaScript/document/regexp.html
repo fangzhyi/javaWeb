@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        // var patt = new RegExp("e");
+        //是否包含字符e
+        // var patt = /e/;
+        // alert(patt);
+        //是否包含a或b或c
+        // var patt = /[abc]/;
+        //是否包含小写字母
+        // var patt =/[a-z]/;
+        //是否包含大写字母
+        //  var patt = /[A-Z]/;
+        //是否包含数字
+        //var patt = /[0-9]/;
+        //是否包含数字字母下划线
+        //   var patt = /\w/;
+        //是否包含至少一个a
+        // var patt = /a+/;
+        //是否包含0个 或 多个a
+        // var patt = /a*/;
+        //是否包含一个或零个a
+        // var patt = /a?/;
+        //是否包含连续3个a
+        // var patt = /a{3}/;
+        //是否包含 至少连续3个a，最多5个连续的a
+        // var patt = /a{3,5}/;
+        //表示要求字符串以a结尾
+        // var patt =/a$/;
+        //表示要求字符串以a打头
+        // var patt =/^a/;
+        // var patt = /^a{3,5}$/;
+        var patt = /^\w{5,12}$/;
+        var str = "baaaaa[[";
+
+
+
+
+        alert(patt.test(str));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
